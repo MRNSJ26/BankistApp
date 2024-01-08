@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -37,6 +37,13 @@ nav {
 
 .logo {
   height: 5.25rem;
+}
+
+.info-icon {
+  height: 2.25rem;
+  width: 2.25rem;
+  margin: auto;
+  margin: 1rem;
 }
 
 .login {
