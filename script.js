@@ -198,7 +198,7 @@ createUsernames(accounts);
 function upateDate() {
   const now = new Date();
   const year = `${now.getFullYear()}`.padStart(2, 0);
-  const month = `${now.getMonth()}`.padStart(2, 0);
+  const month = `${now.getMonth() + 1}`.padStart(2, 0);
   const day = `${now.getDate()}`.padStart(2, 0);
   const hour = `${now.getHours()}`.padStart(2, 0);
   const min = `${now.getMinutes()}`.padStart(2, 0);
